@@ -1,0 +1,21 @@
+name: FixBottle
+version: 1.0.0
+main: com.fixbottle.FixBottlePlugin
+api-version: "1.16"
+description: Experience bottle that fully repairs every damaged item in inventory.
+commands:
+  givefixbottle:
+    description: Выдать пузырёк починки
+    usage: /givefixbottle [игрок] [количество]
+    permission: fixbottle.give
+  fixbottle:
+    description: Перезагрузить конфиг
+    usage: /fixbottle reload
+    permission: fixbottle.admin
+permissions:
+  fixbottle.give:
+    description: Доступ к выдаче пузырька
+    default: op
+  fixbottle.admin:
+    description: Доступ к перезагрузке конфига
+    default: op

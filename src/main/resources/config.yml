@@ -1,0 +1,22 @@
+item:
+  name: "Пузырёк починки"
+  name-color: "GREEN"
+  lore: []
+  glint: true
+  unstackable: true
+effects:
+  sound: "ENTITY_EXPERIENCE_BOTTLE_THROW"
+  sound-volume: 1.0
+  sound-pitch: 1.2
+  particle: "VILLAGER_HAPPY"
+  particle-count: 12
+messages:
+  repaired: "&aПочинено предметов: &f{count}"
+  nothing: "&cУ вас нет повреждённых предметов"
+  no-permission: "&cНедостаточно прав"
+  given: "&aВыдано &f{amount} &aшт. игроку &f{player}"
+  received: "&aВы получили &f{amount} &aшт. пузырька починки"
+  player-not-found: "&cИгрок &f{player} &cне найден"
+  bad-amount: "&cНекорректное количество"
+  console-needs-player: "&cИз консоли укажите игрока: /givefixbottle <игрок> [количество]"
+  reloaded: "&aКонфиг перезагружен"
